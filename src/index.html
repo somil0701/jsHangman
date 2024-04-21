@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="flex justify-between items-center h-screen mx-[6rem]">
+        <div class="word text-3xl">
+
+        </div>
+        <div class="flex flex-col justify-center items-center">
+            <div class="border-4 border-red-900 h-0 w-[100px]"></div>
+            <div class="border-4 border-red-900 h-[100px] w-0"></div>
+            <div class="part hangman-head hidden rounded-full w-20 h-20 border-4 border-red-900"></div>
+            <div class="">
+                <div class="part hangman-spine hidden border-2 border-red-900 h-[90px] w-[0]"></div>
+                <div class="part hangman-left-hand hidden border-2 border-red-900 h-[90px] w-[0] rotate-[135deg] -translate-y-[80px] -translate-x-[35px]"></div>
+                <div class="part hangman-right-hand hidden border-2 border-red-900 h-[90px] w-[0] rotate-[225deg] -translate-y-[170px] translate-x-[35px]"></div>
+            </div>
+            <div class="part hangman-body hidden border-2 border-red-900 h-[90px] w-[0] -translate-y-[180px]"></div>
+            <div class="">
+                <div class="part hangman-left-leg hidden border-2 border-red-900 h-[90px] w-[0] rotate-[225deg] -translate-y-[195px] -translate-x-[35px]"></div>
+                <div class="part hangman-right-leg hidden border-2 border-red-900 h-[90px] w-[0] rotate-[135deg] -translate-y-[285px] translate-x-[35px]"></div>
+            </div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
