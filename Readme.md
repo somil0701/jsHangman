@@ -35,7 +35,7 @@ Make sure you have the following installed:
 
 ### Running the Game
 
-#### Terminal Version
+#### Terminal Version(Will be updated later)
 
 To play the game in your terminal, run:
 
